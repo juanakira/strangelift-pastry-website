@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>STRANGELIFT'S PASTRY WEBSITE</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js",
+                "GLTFLoader": "https://unpkg.com/three@0.138.0/examples/jsm/loaders/GLTFLoader.js"
+            }
+        }
+    </script>
+</head>
+  </head>
+  <body>
+    <nav>
+      <a href="#">home</a>
+      <a href="#">catalog</a>
+      <a href="#">future boxes</a>
+    </nav>
+    <h1>STRANGELIFT'S PASTRY WEBSITE</h1>
+    <p class="intro-text">Strangelift's is a small pastry shop that specializes in unique and delicious pastries.</p>
+    <section>
+      <div class="catalog-item">
+        <h2>Catalog Item 1</h2>
+        <p>A delicious pastry with a flaky crust and a sweet filling.</p>
+        <canvas id="catalog-canvas"></canvas>
+      </div>
+      <div class="future-box-item">
+        <h2>Future Box Item 1</h2>
+        <p>A tasty treat that's perfect for any occasion.</p>
+        <canvas id="future-box-canvas"></canvas>
+      </div>
+    </section>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

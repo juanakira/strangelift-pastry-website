@@ -1,0 +1,79 @@
+body {
+  background-image: url('cloudybackground.png');
+  font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: transparent;
+
+}
+
+h1 {
+  color: #9b00ff;
+  font-size: 72px;
+  text-align: center;
+  text-shadow: 0 0 5px #FFFFFF;
+}
+
+.intro-text {
+    text-align: center;
+  }
+
+nav {
+  background-color: #a6cee8;
+  color: #9b00ff;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  border: 3px solid #FFDAB9;
+  border-radius: 10px;
+}
+
+nav a {
+  color: #9b00ff;
+  text-decoration: none;
+  margin: 0px 20px;
+  text-shadow: 0 0 5px #fff;
+}
+
+nav a:hover {
+  color: #e6c0ff;
+  text-shadow: 0 0 10px #ADD8E6;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.catalog-item,
+.future-box-item {
+  width: 50%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #a6cee8;
+  border: 2px solid #9b00ff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #FFDAB9;
+}
+
+.catalog-item h2,
+.future-box-item h2 {
+  color: #9b00ff;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 0 0 5px #FFFFFF;
+}
+
+.catalog-item p,
+.future-box-item p {
+  color: #9b00ff;
+  font-size: 24px;
+  text-align: justify;
+  text-shadow: 0 0 5px #FFFFFF;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  
+}
